@@ -6,7 +6,7 @@ public class CompanyData {
 	public String address;
 	public String phone;
 	public String email;
-	
+
 	public CompanyData(String name, String vatNumber, String address, String phone, String email) {
 		this.name = name;
 		this.vatNumber = vatNumber;
@@ -20,7 +20,7 @@ public class CompanyData {
 		return "CompanyData [name=" + name + ", vatNumber=" + vatNumber + ", address=" + address + ", phone=" + phone
 				+ ", email=" + email + "]";
 	}
-	
-	
-	
+
+
+
 }

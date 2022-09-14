@@ -8,6 +8,6 @@ public class Main {
 		PreventivoManager model = new PreventivoManager();
 		MainGUI gui = new MainGUI("Modifica Preventivi", model);
 		gui.show();
-		
+
 	}
 }
